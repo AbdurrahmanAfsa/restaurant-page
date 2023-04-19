@@ -1,1 +1,3 @@
-console.log('Is everything OK ???!!!');
+import { pageLoad } from "./page-load";
+
+pageLoad();
