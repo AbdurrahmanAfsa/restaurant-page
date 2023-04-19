@@ -1,3 +1,4 @@
+export {pageLoad};
 
 const pageLoad = () => {
 const mainBody = (() => {
