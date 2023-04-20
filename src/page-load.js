@@ -61,6 +61,7 @@ const pageLoad = () => {
     const footer = (() => {
         const footerText = document.createElement('p');
         footerText.classList.add('footer-text');
+        mainBody.footer.appendChild(footerText);
     })()
 
     
