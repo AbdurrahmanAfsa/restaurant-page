@@ -1,9 +1,12 @@
 export {pageLoad};
 import './style.css'
+import egyptianFood from './egyptian-food.jpg';
 
 const pageLoad = () => {
     const mainBody = (() => {
         const content = document.querySelector('#content');
+        const myImage = new Image();
+        myImage.src = egyptianFood;
         
         const nav = document.createElement('nav');
         const main = document.createElement('main');
