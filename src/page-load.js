@@ -59,7 +59,7 @@ const pageLoad = () => {
     })()
 
     const footer = (() => {
-        
+        const footerText = document.createElement('p');
     })()
 
     
