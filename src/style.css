@@ -10,3 +10,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
