@@ -51,6 +51,11 @@ const pageLoad = () => {
         title.classList.add('title');
         mainBody.main.appendChild(title);
         title.innerText = `El-Mi3alem Restaurant`
+
+        const welcome = document.createElement('p');
+        welcome.classList.add('welcome');
+        mainBody.main.appendChild(welcome);
+        welcome.innerText = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cupiditate cumque vel, asperiores debitis numquam non incidunt vitae, ullam accusamus, fuga ratione ducimus quis impedit cum illum. Necessitatibus, illo reprehenderit.`
     })()
 
     
