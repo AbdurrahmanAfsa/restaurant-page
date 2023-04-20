@@ -68,6 +68,12 @@ const pageLoad = () => {
         footerText.innerText = 'Developed by Abdurrahman Afsa';
     })()
 
+    return {
+        mainBody,
+        nav,
+        main,
+        footer,
+    }
     
 };
 
