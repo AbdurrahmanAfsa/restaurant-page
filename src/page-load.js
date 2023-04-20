@@ -47,7 +47,10 @@ const pageLoad = () => {
     })()
 
     const main = (() => {
-        
+        const title = document.createElement('h1');
+        title.classList.add('title');
+        mainBody.main.appendChild(title);
+        title.innerText = `El-Mi3alem Restaurant`
     })()
 
     
