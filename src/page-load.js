@@ -62,6 +62,7 @@ const pageLoad = () => {
         const footerText = document.createElement('p');
         footerText.classList.add('footer-text');
         mainBody.footer.appendChild(footerText);
+        footerText.innerText = 'Developed by Abdurrahman Afsa';
     })()
 
     
