@@ -1,4 +1,5 @@
 export {pageLoad};
+import './style.css'
 
 const pageLoad = () => {
 const mainBody = (() => {
