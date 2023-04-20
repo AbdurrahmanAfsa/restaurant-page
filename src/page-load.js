@@ -58,6 +58,10 @@ const pageLoad = () => {
         welcome.innerText = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cupiditate cumque vel, asperiores debitis numquam non incidunt vitae, ullam accusamus, fuga ratione ducimus quis impedit cum illum. Necessitatibus, illo reprehenderit.`
     })()
 
+    const footer = (() => {
+        
+    })()
+
     
 };
 
