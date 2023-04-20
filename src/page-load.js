@@ -60,6 +60,7 @@ const pageLoad = () => {
 
     const footer = (() => {
         const footerText = document.createElement('p');
+        footerText.classList.add('footer-text');
     })()
 
     
