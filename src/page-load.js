@@ -2,7 +2,7 @@ export {pageLoad};
 import './style.css'
 import egyptianFood from './egyptian-food.jpg';
 
-const pageLoad = () => {
+const pageLoad = (() => {
     const mainBody = (() => {
         const content = document.querySelector('#content');
         const myImage = new Image();
@@ -74,8 +74,7 @@ const pageLoad = () => {
         main,
         footer,
     }
-    
-};
+})() ;
 
 
 
