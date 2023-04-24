@@ -59,3 +59,11 @@ footer{
     border-radius: 10px;
     border-left: solid 5px #f0b429;
 }
+
+.about-container{
+    margin: 0 20%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    border-left: solid 5px #f0b429; 
+}
