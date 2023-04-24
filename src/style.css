@@ -52,3 +52,10 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
     gap: 30px;
 }
+
+.food-item{
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    border-left: solid 5px #f0b429;
+}
